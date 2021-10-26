@@ -1,0 +1,8 @@
+cache
+.doit.db*
+__pycache__
+.ipynb_checkpoints
+output
+README-LOCAL.md
+.DS_Store
+public

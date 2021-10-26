@@ -1,0 +1,52 @@
+baseURL = "https://bkimmig.github.io"
+languageCode = "en-us"
+title = "Learning Systems"
+
+# https://themes.gohugo.io/etch/
+theme = "etch"
+
+# ##################################### #
+# Adding pages
+# https://github.com/LukasJoswiak/etch/wiki/Getting-started
+# hugo new about/index.md
+# hugo new posts/my-post.md
+# ##################################### #
+
+# ##################################### #
+# MathJax for Latex
+# https://geoffruddock.com/math-typesetting-in-hugo/#adapted-for-mathjax-3
+# ##################################### #
+
+# https://github.com/LukasJoswiak/etch/wiki/Configuration
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = ""
+  copyright = "Copyright © 2021 Brian Kimmig"
+  dark = "auto"
+  highlight = true
+
+# lower `weight` gets higher precedence
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
