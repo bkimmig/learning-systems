@@ -19,6 +19,9 @@ Currently using the Etch theme...
 
 Install `hugo` (on mac `brew install hugo`)
 
+- `git clone --recurse-submodules <repo location>`
+    + The `--recurse-submodules` is required to install the specified hugo theme.
+    + If the repo is already cloned, run `git submodule update --init --recursive` to achive the same effect.
 - `git checkout source`
 - `git checkout -b "your branch"`
 - add code
