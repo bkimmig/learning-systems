@@ -1,4 +1,4 @@
-baseURL = "https://bkimmig.github.io"
+baseURL = "https://bkimmig.github.io/learning-systems"
 languageCode = "en-us"
 title = "Learning Systems"
 
@@ -24,7 +24,7 @@ pygmentsUseClasses = true
 
 [params]
   description = ""
-  copyright = "Copyright © 2021 Brian Kimmig"
+  copyright = "Copyright © 2021 Learning Systems"
   dark = "auto"
   highlight = true
 
