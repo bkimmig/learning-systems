@@ -4,9 +4,9 @@ date: 2021-10-26T22:07:00-00:00
 authors: ["Jovan Sardinha"]
 ---
 
-![Learning Systems](/resources/why/conveyor-belt.png)
+![Learning Systems](/learning-systems/static/img/posts/the-why/conveyor-belt.png)
 
-Accelerating to a future where we can build better experiences, create more output or solve harder problems is only possible with better systems. These systems will allow us to better leverage available inputs. These systems will also help us amplify exising knowledge and shed light on where more effort is required.
+Accelerating to a future where we can build better experiences, create more output or solve harder problems is only possible with better systems. These systems will allow us to better leverage available inputs. These systems will also help us amplify existing knowledge and shed light on where more effort is required.
 
 As volumes increase, the complexity of products improves, the overall system becomes more of a product that the output itself. As the system that builds the systems, our factories are so important that we believe they will ultimately deserve an order of magnitude more attention in engineering than what they produce.
 
