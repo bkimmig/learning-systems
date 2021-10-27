@@ -10,11 +10,11 @@ Accelerating to a future where we can do more is only possible with better syste
 
 As the complexity of the output increases, the overall system becomes more of a product that the output itself. These systems are so important that we believe they will ultimately deserve an order of magnitude more attention in engineering than what they produce.
 
-Today there is a some guidance and expertise on how to create the final product (ex. how to write code), but there's much less about how to build these systems. This stuff is complicated and hard to get right. But it matters.
+Today there is a some guidance and expertise on how to create the final product (ex. how to write code), but there is much less about how to build these systems. This stuff is complicated and hard to get right. But it matters.
 
-“We are as Gods and might as well get good at it” [Stewart Brand](https://www.weareasgods.film/) wrote in 1968. A legendary pioneer urges people to use their god-like powers to push the envelop. He created the [Whole Earth Catlog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) to provider other with "access to tools".
+> “We are as Gods and might as well get good at it”
 
-We hope this repository functions as an evaluation and access toolbox. An item is is listed in this repo if it is deemed:
+[Stewart Brand](https://www.weareasgods.film/) wrote in 1968. A legendary pioneer urging people to push the envelop. He created the [Whole Earth Catlog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) to provider other with "access to tools" to achieve this mission. In that spirit, we hope this repository functions as an evaluation and access toolbox. An item is is listed in this repo if it is deemed:
 
 - Useful as a tool.
 - Relevant to independent education.
