@@ -27,3 +27,8 @@ Install `hugo` (on mac `brew install hugo`)
 - pull request into source
 - merge
 - the github action will build and push the code to `main`
+
+## Useful links
+
+- Site is available at: https://bkimmig.github.io/learning-systems/
+
