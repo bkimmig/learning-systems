@@ -12,7 +12,7 @@ In most cases, low technical quality isn’t a crisis. It is the expected, norma
 
 There’s a particular joy in drilling into the challenge at hand until you find a generalized problem worth solving. However, an equally important instinct is solving the current situation quickly and moving on to the next pressing issue. As you think about the right improvements, it’s generally most effective to start with the lightest weight solutions and only progress towards massive solutions as earlier efforts collapse under the pressure of scale. Even if it doesn’t work, you’ll learn more and more quickly from failing to roll out the easy stuff than failing to roll out the hard stuff. Over time you will move towards comprehensive approaches.
 
-Just a company's technical quality bar will shift over time, the approach to managing technical quality must evolve in tandem.
+Just a company's technical quality bar will shift over time, the approach to managing technical quality must evolve in tandem. Here is a iterative approach:
 
 * Start small:
   * Fix the problem spots that are causing immediate problems.
