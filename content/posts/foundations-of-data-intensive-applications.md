@@ -1,6 +1,7 @@
 ---
 title: "Foundations of Data Intensive Applications"
 date: 2021-10-27T00:00:00-00:00
+modified: 2021-10-30
 authors: ["Jovan Sardinha"]
 ---
 
