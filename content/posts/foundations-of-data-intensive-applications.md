@@ -27,8 +27,8 @@ authors: ["Jovan Sardinha"]
 
 #### Reliability
 
-* Things that can go wrong are called `faults`. Systems that anticipate faults and can copy with them are called `fault-tolerant` or `resiliant`. A `failure` is when the systems as a whole stops providing service to it's customers.
-* Types of faults and faulures:
+* Things that can go wrong are called `faults`. Systems that anticipate faults and can copy with them are called `fault-tolerant` or `resilient`. A `failure` is when the systems as a whole stops providing service to it's customers.
+* Types of faults and failures:
   * **Hardware Faults**
   * **Software Errors**
   * **Human Errors**
