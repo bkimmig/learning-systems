@@ -12,5 +12,6 @@ authors: ["Jovan Sardinha", "Brian Kimmig"]
 * Code competing with code; production code vs. experiment code.
 * Is something truly a one off
 * When do you want to add consitency.
-* Iteration of the model type vs adding a head and new features
+* Iteration of the model type vs adding a head and new features.
+* ML systems trying to learn while the people that build those system are also learning
 * Having a weekly 1/2 chat where we can brainstorm potential ideas (like this one) for the coming week. This way during the actual day, all you need to do is just execute.
