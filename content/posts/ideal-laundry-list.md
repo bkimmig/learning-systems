@@ -37,5 +37,9 @@ authors: ["Jovan Sardinha", "Brian Kimmig"]
   - Who's really learning?
     - the model AND the "trainer"?
     - what is it learning?
+- [OSI model](https://en.wikipedia.org/wiki/OSI_model)
+  - Specifially how it leads to value creation in technology networks.
+  - Where are we in the ML ecosystem?
+  - The delicate balance between the `Application Layer` (demand generation) and the rest of the stack (supply generation)
 - zen of python -> zen of {ML, learning systems}
   - "ethics over metrics" as an example.
