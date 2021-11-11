@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Learning Systems</title><link>https://bkimmig.github.io/learning-systems/tags/</link><description>Recent content in Tags on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bkimmig.github.io/learning-systems/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Idea Laundry List</title><link>https://bkimmig.github.io/learning-systems/idea-laundry-list/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/idea-laundry-list/</guid><description>&lt;ul>
+&lt;li>How do you get team to experiment while they produce.&lt;/li>
+&lt;li>Type 1 vs Type 2 iteration.
+&lt;ul>
+&lt;li>A good follow on post would be the &lt;strong>Who&amp;rsquo;s really learning&lt;/strong> post.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/SOLID">SOLID software&lt;/a>
+&lt;ul>
+&lt;li>How does this fit into ML?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Identifying data contracts + picking the most simple thing first (e.g. use a csv instead of a DB to avoid extra deps when starting)&lt;/li>
+&lt;li>Using top-down patterns (how to) vs. best principles (more of a bottom up).&lt;/li>
+&lt;li>looks like bottom up in usefull for early projects and vice versa.&lt;/li>
+&lt;li>How do you incentivize this process.&lt;/li>
+&lt;li>&amp;lt;state, action, reward&amp;gt; triplets for team.&lt;/li>
+&lt;li>Code competing with code; production code vs. experiment code.&lt;/li>
+&lt;li>Is something truly a one off&lt;/li>
+&lt;li>When do you want to add consistency.&lt;/li>
+&lt;li>Iteration of the model type vs adding a head and new features&lt;/li>
+&lt;li>Having a weekly 1/2 chat where we can brainstorm potential ideas (like this one) for the coming week. This way during the actual day, all you need to do is just execute.&lt;/li>
+&lt;li>&amp;ldquo;one-offs&amp;rdquo; software/ML (when to invest in your code base)&lt;/li>
+&lt;li>&amp;ldquo;consistency is key&amp;rdquo; Are algos consistent? Are humans consistent? Should they be?&lt;/li>
+&lt;li>&amp;ldquo;leave it better than you found it&amp;rdquo; (in progress - {branch name} or {pr number})&lt;/li>
+&lt;li>ML Production Edicts
+&lt;ul>
+&lt;li>latency (all systems, but still important)&lt;/li>
+&lt;li>sane fallbacks (is your model doing something crazy or not returning a result)&lt;/li>
+&lt;li>Itearation/Experimentation - once you have a base case workin, how do you pick the next one.&lt;/li>
+&lt;li>your training platform&lt;/li>
+&lt;li>your serving platform&lt;/li>
+&lt;li>how do these actually work together / can they? (reddit is very disjoint)&lt;/li>
+&lt;li>ML models are like &amp;ldquo;fuzzy&amp;rdquo; APIs - where your more traditional API is deterministic, we should think of every response as having an errorbar)&lt;/li>
+&lt;li>ML focus on uncertainty - a prediction is not just a probability but there are errors on it $P \pm \sigma_P$
+&lt;ul>
+&lt;li>$\sigma_P$ is important and we should aim to understand it.&lt;/li>
+&lt;li>This is especially true for anything in online learning - try to sample at your known error rate&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Who&amp;rsquo;s really learning?
+&lt;ul>
+&lt;li>the model AND the &amp;ldquo;trainer&amp;rdquo;?&lt;/li>
+&lt;li>what is it learning?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/OSI_model">OSI model&lt;/a>
+&lt;ul>
+&lt;li>Specifially how it leads to value creation in technology networks.&lt;/li>
+&lt;li>Where are we in the ML ecosystem?&lt;/li>
+&lt;li>The delicate balance between the &lt;code>Application Layer&lt;/code> (demand generation) and the rest of the stack (supply generation)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>zen of python -&amp;gt; zen of {ML, learning systems}
+&lt;ul>
+&lt;li>&amp;ldquo;ethics over metrics&amp;rdquo; as an example.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>What is your production function?</title><link>https://bkimmig.github.io/learning-systems/what-is-your-production-function/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/what-is-your-production-function/</guid><description>&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Tyler_Cowen">Tyler Cowen&lt;/a> is an economics professor at &lt;a href="https://en.wikipedia.org/wiki/George_Mason_University">George Mason University&lt;/a>. He runs the &lt;a href="https://www.mercatus.org/">Mercatus Center&lt;/a>, which bridges the gap between academic ideas and real-world problems. He’s published a &lt;a href="https://marginalrevolution.com">blog&lt;/a> (which you should subscribe to if you haven&amp;rsquo;t already) and publishes a &lt;a href="https://conversationswithtyler.com/">podcast&lt;/a> among other things.&lt;/p>
+&lt;p>Tyler ends every episode of his podcast asking about other people’s production function. How do you get so much done? What’s the secret sauce of all that you’ve accomplished? This episode is entirely devoted to that question.&lt;/p>
+&lt;p>&lt;em>How you prepare?&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>What is your learning process?&lt;/li>
+&lt;li>How do you make time to learn something new?&lt;/li>
+&lt;li>How do you make learning a habbit?&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>How do you execute?&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Nurturing the right coding frame of mind to be efficient&lt;/li>
+&lt;li>Implementing CI/CD pipelines in smart ways&lt;/li>
+&lt;li>Testing made effortless&lt;/li>
+&lt;li>Making your physical environment conducive&lt;/li>
+&lt;li>IDE tricks and workflows&lt;/li>
+&lt;li>Better debugging methodology&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>How do you plan?&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Project management mindsets&lt;/li>
+&lt;li>How do you track progress&lt;/li>
+&lt;li>Lessons learnt from things going off the rails&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>How do you help yourself/others?&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Pair programming and rubber duck debugging&lt;/li>
+&lt;li>Managing your personal life and wellbeing for productivity&lt;/li>
+&lt;li>Things someone should reach out to you for&lt;/li>
+&lt;/ul></description></item><item><title>The fight against technical entropy</title><link>https://bkimmig.github.io/learning-systems/the-fight-against-technical-entropy/</link><pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/the-fight-against-technical-entropy/</guid><description>&lt;p>As an engineering team, your goal is to maintain an appropriate technical quality level while devoting as much energy as possible towards the core business. We must balance quality across multiple time frames, and those time frames generally have conflicting needs.&lt;/p>
+&lt;p>If there’s one thing most people are likely to agree on, it’s that there’s a crisis of technical quality. One diagnosis and cure is easy to identify: our engineers aren’t prioritizing quality, and we need to hire better engineers or retrain the ones we have. It’s a compelling narrative with a clear villain, and it conveniently shifts blame. Still, like most narratives that move accountability, it’s both unhelpful and wrong.&lt;/p>
+&lt;p>In most cases, low technical quality isn’t a crisis. It is the expected, normal state. Most engineers generally make reasonable quality decisions when they make them. However, as time moves on and other changes get made, most of your previous technical decisions won’t meet previous quality threshold. This ongoing fight is an essential and what differentiates high performing teams.&lt;/p>
+&lt;p>There’s a particular joy in drilling into the challenge at hand until you find a generalized problem worth solving. However, an equally important instinct is solving the current situation quickly and moving on to the next pressing issue. As you think about the right improvements, it’s generally most effective to start with the lightest weight solutions and only progress towards massive solutions as earlier efforts collapse under the pressure of scale. Even if it doesn’t work, you’ll learn more and more quickly from failing to roll out the easy stuff than failing to roll out the hard stuff. Over time you will move towards comprehensive approaches.&lt;/p>
+&lt;p>Just a company&amp;rsquo;s technical quality bar will shift over time, the approach to managing technical quality must evolve in tandem. Here is a iterative approach:&lt;/p>
+&lt;ul>
+&lt;li>Start small:
+&lt;ul>
+&lt;li>Fix the problem spots that are causing immediate problems.&lt;/li>
+&lt;li>Define errors out of existence.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Baselines:
+&lt;ul>
+&lt;li>Understand what best practices exist.&lt;/li>
+&lt;li>Measure technical quality to guide deeper investment.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Prioritize:
+&lt;ul>
+&lt;li>Identify leverage points that help.&lt;/li>
+&lt;li>Use your baselines to guide efforts.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Scale:
+&lt;ul>
+&lt;li>Spin up a teams where the mandate it to create systems and tools that help scale the efforts.&lt;/li>
+&lt;li>Run a quality programs that apply the systems and tools more generally.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Foundations of Data Intensive Applications</title><link>https://bkimmig.github.io/learning-systems/foundations-of-data-intensive-applications/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/foundations-of-data-intensive-applications/</guid><description>&lt;ul>
+&lt;li>How have applications changed in 2020s from the earlier days? What are the usual limiting factors?
+&lt;ul>
+&lt;li>Model applications are &lt;code>data bound&lt;/code> as opposed to &lt;code>compute bound&lt;/code>.&lt;/li>
+&lt;li>Most of the bottlenecks arise from fetching/setting and manipulating data.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>What are the typical building blocks that provide common functionality in modern applications?
+&lt;ul>
+&lt;li>Databases&lt;/li>
+&lt;li>Caches&lt;/li>
+&lt;li>Search Indexes&lt;/li>
+&lt;li>Stream Processing&lt;/li>
+&lt;li>Batch Processing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The following tools {databases, queues, caches, etc&amp;hellip;} each store data for different duration of time. Hence, why are these all grouped under the umbrella term of &lt;code>data systems&lt;/code>?
+&lt;ul>
+&lt;li>There are a lot of tools that have emerged in recent years that are optimized for a particular used case. These tools do not fit into the traditional categories.&lt;/li>
+&lt;li>Many applications have a wide rage of needs that a single &lt;em>database&lt;/em> tools cannot satisfy. Instead, it&amp;rsquo;s better to break down tasks and let the best tool handle the sub-component.&lt;/li>
+&lt;li>When you combine several tools to provide one service, the service hides and syncs all these data tools from the client. Now you have created a new, special-purpose data system from smaller general-purpose components.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>What is the difference between a &lt;em>fault&lt;/em> and a &lt;em>failure&lt;/em>?
+&lt;ul>
+&lt;li>A failure is caused when the system stops providing service to its clients.&lt;/li>
+&lt;li>A fault is when a component of a system deviates from spec.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>What are the main concerns of modern applications?
+&lt;ul>
+&lt;li>&lt;em>Reliability&lt;/em>: The system should continue to work correctly even in the face of adversity.&lt;/li>
+&lt;li>&lt;em>Scalability&lt;/em>: As the system grows (data volume, traffic volume, complexity, etc&amp;hellip;), there should be reasonable ways of dealing with such growth.&lt;/li>
+&lt;li>&lt;em>Maintainability&lt;/em>: Over time, different people will work on the system and they need to be able to contribute productively.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="reliability">Reliability&lt;/h4>
+&lt;ul>
+&lt;li>Things that can go wrong are called &lt;code>faults&lt;/code>. Systems that anticipate faults and can copy with them are called &lt;code>fault-tolerant&lt;/code> or &lt;code>resilient&lt;/code>. A &lt;code>failure&lt;/code> is when the systems as a whole stops providing service to it&amp;rsquo;s customers.&lt;/li>
+&lt;li>Types of faults and failures:
+&lt;ul>
+&lt;li>&lt;strong>Hardware Faults&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Software Errors&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Human Errors&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="scalability">Scalability&lt;/h4>
+&lt;ul>
+&lt;li>Two types of scalability issues:
+&lt;ul>
+&lt;li>&lt;strong>Load&lt;/strong>: Params that best describe the stocks (storage) and flows (read/writes) in the system.&lt;/li>
+&lt;li>&lt;strong>Performance&lt;/strong>: Best scribed in percentiles (Pxx) of service response time.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Approaches for dealing with load:
+&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Scalability#Horizontal_(scale_out)_and_vertical_scaling_(scale_up)">Horizontal scaling vs. vertical scaling&lt;/a>&lt;/li>
+&lt;li>Elasticity: See section on &lt;em>partitioning&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="maintainability">Maintainability&lt;/h4>
+&lt;ul>
+&lt;li>Design principles of software maintainability:
+&lt;ul>
+&lt;li>&lt;strong>Operability&lt;/strong>: How easy is it for operations teams to keep the system running smoothly?
+&lt;ul>
+&lt;li>Understand what &lt;em>tasks&lt;/em> the operations teams are responsible for (see p. 19-20 for suggestions).&lt;/li>
+&lt;li>What tools would help the operations team with the above tasks (see p. 20 for suggestions).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Simplicity&lt;/strong>: How easy is it for new engineers to contribute?
+&lt;ul>
+&lt;li>Related: Brian Foote and Joseph Yoder: “Big Ball of Mud,” at 4th Conference on Pattern Languages of Programs (PLoP), September 1997. from the &lt;code>references&lt;/code> section.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Evolvability&lt;/strong>: How easy is it to change the system in the future?
+&lt;ul>
+&lt;li>No good framework provided here.&lt;/li>
+&lt;li>Might want to dig in more in other books (example. &lt;a href="https://www.amazon.com/_/dp/1491986360?tag=oreilly20-20">Building Evolutionary Architectures: Support Constant Change&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>...so we might as well good at it</title><link>https://bkimmig.github.io/learning-systems/...so-we-might-as-well-good-at-it/</link><pubDate>Tue, 26 Oct 2021 22:07:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/...so-we-might-as-well-good-at-it/</guid><description>&lt;p>&lt;img src="https://bkimmig.github.io/learning-systems/learning-systems/static/img/posts/the-why/toolbox.png" alt="Learning Systems">&lt;/p>
+&lt;p>Accelerating to a future where we can do more is only possible with better systems. These systems should allow us to better leverage available inputs, solve harder problems or provide guidance where necessary.&lt;/p>
+&lt;p>As the complexity of the output increases, the overall system becomes more of a product that the output itself. These systems are so important that we believe they will ultimately deserve an order of magnitude more attention in engineering than what they produce.&lt;/p>
+&lt;p>Today there is a some guidance and expertise on how to create the final product (ex. how to write code), but there is much less about how to build these systems. This stuff is complicated and hard to get right. But it matters.&lt;/p>
+&lt;blockquote>
+&lt;p>“We are as Gods and might as well get good at it”&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://www.weareasgods.film/">Stewart Brand&lt;/a> wrote in 1968. A legendary pioneer urging people to push the envelop. He created the &lt;a href="https://en.wikipedia.org/wiki/Whole_Earth_Catalog">Whole Earth Catlog&lt;/a> to provider other with &amp;ldquo;access to tools&amp;rdquo; to achieve this mission. In that spirit, we hope this repository functions as an evaluation and access toolbox. An item is is listed in this repo if it is deemed:&lt;/p>
+&lt;ul>
+&lt;li>Useful as a tool.&lt;/li>
+&lt;li>Relevant to independent education.&lt;/li>
+&lt;li>Easily available: contains no proprietary information.&lt;/li>
+&lt;/ul>
+&lt;p>The content here is continually revised according to the experience and suggestions of the authors and readers.&lt;/p></description></item><item><title>Github Pages, GitHub Actions, and Hugo</title><link>https://bkimmig.github.io/learning-systems/github-pages-github-actions-and-hugo/</link><pubDate>Sun, 24 Oct 2021 15:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/github-pages-github-actions-and-hugo/</guid><description>&lt;p>For the last few years I&amp;rsquo;ve had my personal website hosted via &lt;a href="https://pages.github.com/">GitHub
+Pages&lt;/a>. To make my life even easier I&amp;rsquo;ve always used
+a static site generator; first I used &lt;a href="https://blog.getpelican.com/">Pelican&lt;/a>
+and most recently had it set up with &lt;a href="https://getnikola.com/">Nikola&lt;/a> - both
+were great. Nikola is especially nice as it made deploying Jupyter notebooks as
+blog posts incredibly easy.&lt;/p>
+&lt;p>Recently I&amp;rsquo;ve wanted to mess with the style of my site a bit more. Nothing
+crazy, but maybe make it more simple or just give myself some other ways to
+easily change the look and feel. When searching for other static site tools I
+quickly came across &lt;a href="https://github.com/gohugoio/hugo">Hugo&lt;/a> a very popular
+static site generator written in &lt;code>golang&lt;/code> - there are also a ton of
+&lt;a href="https://themes.gohugo.io/">themes&lt;/a> already made for it! I should note that I am
+a huge fan of &lt;code>golang&lt;/code> so that gave me even more of a push to use this tool.&lt;/p>
+&lt;p>Similar to the interface Nikola provides, I wanted all of my source code and the
+website code to live in the same repository. Hugo and GitHub actions make this
+possible. I&amp;rsquo;ll give a brief overview of the steps below.&lt;/p>
+&lt;p>My website repository is
+&lt;a href="https://github.com/bkimmig/bkimmig.github.io">bkimmig.github.io&lt;/a>. You&amp;rsquo;ll notice
+that the &lt;code>main&lt;/code> branch contains only the site code. The other branch to consider
+here is called &lt;code>source&lt;/code> - this contains all of the code to generate the site.
+From there, I have a GitHub Action set up to build and push the site to the
+&lt;code>main&lt;/code> branch on any push to the &lt;code>source&lt;/code> branch.&lt;/p>
+&lt;p>&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">This&lt;/a> is the
+tutorial on how to use Hugo in combination with GitHub pages. With a few minor
+tweaks you can use this file to push the compiled site Hugo create to the &lt;code>main&lt;/code>
+branch on a push to &lt;code>source&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>Install and get a basic Hugo site going - &lt;a href="https://gohugo.io/getting-started/quick-start/">Quick Start Guide&lt;/a>&lt;/li>
+&lt;li>Create your repository given the &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a> guidelines&lt;/li>
+&lt;li>Set up your hugo static site generating code on the &lt;code>source&lt;/code> branch of your
+new repository.&lt;/li>
+&lt;li>Under the repository&amp;rsquo;s GitHub Pages settings, select the &lt;code>main&lt;/code> branch to be
+the source.&lt;/li>
+&lt;li>Create your GitHub Actions workflow directory &lt;code>mkdir -p github/workflows/ &amp;amp;&amp;amp; touch github/workflows/gh_pages.yml&lt;/code>&lt;/li>
+&lt;li>Add the following snippet to &lt;code>gh_pages.yml&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">source &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Set a branch to deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-18.04&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes (true OR recursive)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># extended: true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">github_token&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.GITHUB_TOKEN }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now any push to the source branch will build and deploy your site to the main
+branch.&lt;/p></description></item></channel></rss>

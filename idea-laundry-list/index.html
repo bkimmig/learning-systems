@@ -1,0 +1,97 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href=https://bkimmig.github.io/learning-systems/favicon.ico>
+<link rel=stylesheet href=/learning-systems/css/style.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css>
+<title>Idea Laundry List</title>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body><header id=banner>
+<h2><a href=https://bkimmig.github.io/learning-systems>Learning Systems</a></h2>
+<nav>
+<ul>
+<li>
+<a href=/learning-systems/about title=about>about</a>
+</li><li>
+<a href=/learning-systems/ title=posts>posts</a>
+</li>
+</ul>
+</nav>
+</header>
+<main id=content>
+<article>
+<header id=post-header>
+<h1>Idea Laundry List</h1>
+<div>
+Updated <time>November 5, 2021</time>
+</div>
+</header><ul>
+<li>How do you get team to experiment while they produce.</li>
+<li>Type 1 vs Type 2 iteration.
+<ul>
+<li>A good follow on post would be the <strong>Who&rsquo;s really learning</strong> post.</li>
+</ul>
+</li>
+<li><a href=https://en.wikipedia.org/wiki/SOLID>SOLID software</a>
+<ul>
+<li>How does this fit into ML?</li>
+</ul>
+</li>
+<li>Identifying data contracts + picking the most simple thing first (e.g. use a csv instead of a DB to avoid extra deps when starting)</li>
+<li>Using top-down patterns (how to) vs. best principles (more of a bottom up).</li>
+<li>looks like bottom up in usefull for early projects and vice versa.</li>
+<li>How do you incentivize this process.</li>
+<li>&lt;state, action, reward> triplets for team.</li>
+<li>Code competing with code; production code vs. experiment code.</li>
+<li>Is something truly a one off</li>
+<li>When do you want to add consistency.</li>
+<li>Iteration of the model type vs adding a head and new features</li>
+<li>Having a weekly 1/2 chat where we can brainstorm potential ideas (like this one) for the coming week. This way during the actual day, all you need to do is just execute.</li>
+<li>&ldquo;one-offs&rdquo; software/ML (when to invest in your code base)</li>
+<li>&ldquo;consistency is key&rdquo; Are algos consistent? Are humans consistent? Should they be?</li>
+<li>&ldquo;leave it better than you found it&rdquo; (in progress - {branch name} or {pr number})</li>
+<li>ML Production Edicts
+<ul>
+<li>latency (all systems, but still important)</li>
+<li>sane fallbacks (is your model doing something crazy or not returning a result)</li>
+<li>Itearation/Experimentation - once you have a base case workin, how do you pick the next one.</li>
+<li>your training platform</li>
+<li>your serving platform</li>
+<li>how do these actually work together / can they? (reddit is very disjoint)</li>
+<li>ML models are like &ldquo;fuzzy&rdquo; APIs - where your more traditional API is deterministic, we should think of every response as having an errorbar)</li>
+<li>ML focus on uncertainty - a prediction is not just a probability but there are errors on it $P \pm \sigma_P$
+<ul>
+<li>$\sigma_P$ is important and we should aim to understand it.</li>
+<li>This is especially true for anything in online learning - try to sample at your known error rate</li>
+</ul>
+</li>
+<li>Who&rsquo;s really learning?
+<ul>
+<li>the model AND the &ldquo;trainer&rdquo;?</li>
+<li>what is it learning?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=https://en.wikipedia.org/wiki/OSI_model>OSI model</a>
+<ul>
+<li>Specifially how it leads to value creation in technology networks.</li>
+<li>Where are we in the ML ecosystem?</li>
+<li>The delicate balance between the <code>Application Layer</code> (demand generation) and the rest of the stack (supply generation)</li>
+</ul>
+</li>
+<li>zen of python -> zen of {ML, learning systems}
+<ul>
+<li>&ldquo;ethics over metrics&rdquo; as an example.</li>
+</ul>
+</li>
+</ul>
+</article>
+</main><footer id=footer>
+Copyright © 2021 Learning Systems
+</footer>
+</body>
+</html>

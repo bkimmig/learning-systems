@@ -1,0 +1,123 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href=https://bkimmig.github.io/learning-systems/favicon.ico>
+<link rel=stylesheet href=/learning-systems/css/style.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css>
+<title>Foundations of Data Intensive Applications</title>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body><header id=banner>
+<h2><a href=https://bkimmig.github.io/learning-systems>Learning Systems</a></h2>
+<nav>
+<ul>
+<li>
+<a href=/learning-systems/about title=about>about</a>
+</li><li>
+<a href=/learning-systems/ title=posts>posts</a>
+</li>
+</ul>
+</nav>
+</header>
+<main id=content>
+<article>
+<header id=post-header>
+<h1>Foundations of Data Intensive Applications</h1>
+<div>
+Updated <time>October 30, 2021</time>
+</div>
+</header><ul>
+<li>How have applications changed in 2020s from the earlier days? What are the usual limiting factors?
+<ul>
+<li>Model applications are <code>data bound</code> as opposed to <code>compute bound</code>.</li>
+<li>Most of the bottlenecks arise from fetching/setting and manipulating data.</li>
+</ul>
+</li>
+<li>What are the typical building blocks that provide common functionality in modern applications?
+<ul>
+<li>Databases</li>
+<li>Caches</li>
+<li>Search Indexes</li>
+<li>Stream Processing</li>
+<li>Batch Processing</li>
+</ul>
+</li>
+<li>The following tools {databases, queues, caches, etc&mldr;} each store data for different duration of time. Hence, why are these all grouped under the umbrella term of <code>data systems</code>?
+<ul>
+<li>There are a lot of tools that have emerged in recent years that are optimized for a particular used case. These tools do not fit into the traditional categories.</li>
+<li>Many applications have a wide rage of needs that a single <em>database</em> tools cannot satisfy. Instead, it&rsquo;s better to break down tasks and let the best tool handle the sub-component.</li>
+<li>When you combine several tools to provide one service, the service hides and syncs all these data tools from the client. Now you have created a new, special-purpose data system from smaller general-purpose components.</li>
+</ul>
+</li>
+<li>What is the difference between a <em>fault</em> and a <em>failure</em>?
+<ul>
+<li>A failure is caused when the system stops providing service to its clients.</li>
+<li>A fault is when a component of a system deviates from spec.</li>
+</ul>
+</li>
+<li>What are the main concerns of modern applications?
+<ul>
+<li><em>Reliability</em>: The system should continue to work correctly even in the face of adversity.</li>
+<li><em>Scalability</em>: As the system grows (data volume, traffic volume, complexity, etc&mldr;), there should be reasonable ways of dealing with such growth.</li>
+<li><em>Maintainability</em>: Over time, different people will work on the system and they need to be able to contribute productively.</li>
+</ul>
+</li>
+</ul>
+<h4 id=reliability>Reliability</h4>
+<ul>
+<li>Things that can go wrong are called <code>faults</code>. Systems that anticipate faults and can copy with them are called <code>fault-tolerant</code> or <code>resilient</code>. A <code>failure</code> is when the systems as a whole stops providing service to it&rsquo;s customers.</li>
+<li>Types of faults and failures:
+<ul>
+<li><strong>Hardware Faults</strong></li>
+<li><strong>Software Errors</strong></li>
+<li><strong>Human Errors</strong></li>
+</ul>
+</li>
+</ul>
+<h4 id=scalability>Scalability</h4>
+<ul>
+<li>Two types of scalability issues:
+<ul>
+<li><strong>Load</strong>: Params that best describe the stocks (storage) and flows (read/writes) in the system.</li>
+<li><strong>Performance</strong>: Best scribed in percentiles (Pxx) of service response time.</li>
+</ul>
+</li>
+<li>Approaches for dealing with load:
+<ul>
+<li><a href=https://en.wikipedia.org/wiki/Scalability#Horizontal_(scale_out)_and_vertical_scaling_(scale_up)>Horizontal scaling vs. vertical scaling</a></li>
+<li>Elasticity: See section on <em>partitioning</em></li>
+</ul>
+</li>
+</ul>
+<h4 id=maintainability>Maintainability</h4>
+<ul>
+<li>Design principles of software maintainability:
+<ul>
+<li><strong>Operability</strong>: How easy is it for operations teams to keep the system running smoothly?
+<ul>
+<li>Understand what <em>tasks</em> the operations teams are responsible for (see p. 19-20 for suggestions).</li>
+<li>What tools would help the operations team with the above tasks (see p. 20 for suggestions).</li>
+</ul>
+</li>
+<li><strong>Simplicity</strong>: How easy is it for new engineers to contribute?
+<ul>
+<li>Related: Brian Foote and Joseph Yoder: “Big Ball of Mud,” at 4th Conference on Pattern Languages of Programs (PLoP), September 1997. from the <code>references</code> section.</li>
+</ul>
+</li>
+<li><strong>Evolvability</strong>: How easy is it to change the system in the future?
+<ul>
+<li>No good framework provided here.</li>
+<li>Might want to dig in more in other books (example. <a href="https://www.amazon.com/_/dp/1491986360?tag=oreilly20-20">Building Evolutionary Architectures: Support Constant Change</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</article>
+</main><footer id=footer>
+Copyright © 2021 Learning Systems
+</footer>
+</body>
+</html>

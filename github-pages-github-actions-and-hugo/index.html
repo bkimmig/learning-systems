@@ -1,0 +1,105 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href=https://bkimmig.github.io/learning-systems/favicon.ico>
+<link rel=stylesheet href=/learning-systems/css/style.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css>
+<title>Github Pages, GitHub Actions, and Hugo</title>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body><header id=banner>
+<h2><a href=https://bkimmig.github.io/learning-systems>Learning Systems</a></h2>
+<nav>
+<ul>
+<li>
+<a href=/learning-systems/about title=about>about</a>
+</li><li>
+<a href=/learning-systems/ title=posts>posts</a>
+</li>
+</ul>
+</nav>
+</header>
+<main id=content>
+<article>
+<header id=post-header>
+<h1>Github Pages, GitHub Actions, and Hugo</h1>
+<div>
+<time>October 24, 2021</time>
+</div>
+</header><p>For the last few years I&rsquo;ve had my personal website hosted via <a href=https://pages.github.com/>GitHub
+Pages</a>. To make my life even easier I&rsquo;ve always used
+a static site generator; first I used <a href=https://blog.getpelican.com/>Pelican</a>
+and most recently had it set up with <a href=https://getnikola.com/>Nikola</a> - both
+were great. Nikola is especially nice as it made deploying Jupyter notebooks as
+blog posts incredibly easy.</p>
+<p>Recently I&rsquo;ve wanted to mess with the style of my site a bit more. Nothing
+crazy, but maybe make it more simple or just give myself some other ways to
+easily change the look and feel. When searching for other static site tools I
+quickly came across <a href=https://github.com/gohugoio/hugo>Hugo</a> a very popular
+static site generator written in <code>golang</code> - there are also a ton of
+<a href=https://themes.gohugo.io/>themes</a> already made for it! I should note that I am
+a huge fan of <code>golang</code> so that gave me even more of a push to use this tool.</p>
+<p>Similar to the interface Nikola provides, I wanted all of my source code and the
+website code to live in the same repository. Hugo and GitHub actions make this
+possible. I&rsquo;ll give a brief overview of the steps below.</p>
+<p>My website repository is
+<a href=https://github.com/bkimmig/bkimmig.github.io>bkimmig.github.io</a>. You&rsquo;ll notice
+that the <code>main</code> branch contains only the site code. The other branch to consider
+here is called <code>source</code> - this contains all of the code to generate the site.
+From there, I have a GitHub Action set up to build and push the site to the
+<code>main</code> branch on any push to the <code>source</code> branch.</p>
+<p><a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>This</a> is the
+tutorial on how to use Hugo in combination with GitHub pages. With a few minor
+tweaks you can use this file to push the compiled site Hugo create to the <code>main</code>
+branch on a push to <code>source</code>.</p>
+<ol>
+<li>Install and get a basic Hugo site going - <a href=https://gohugo.io/getting-started/quick-start/>Quick Start Guide</a></li>
+<li>Create your repository given the <a href=https://pages.github.com/>GitHub Pages</a> guidelines</li>
+<li>Set up your hugo static site generating code on the <code>source</code> branch of your
+new repository.</li>
+<li>Under the repository&rsquo;s GitHub Pages settings, select the <code>main</code> branch to be
+the source.</li>
+<li>Create your GitHub Actions workflow directory <code>mkdir -p github/workflows/ && touch github/workflows/gh_pages.yml</code></li>
+<li>Add the following snippet to <code>gh_pages.yml</code></li>
+</ol>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>github pages</span><span class=w>
+</span><span class=w>
+</span><span class=w></span><span class=nt>on</span><span class=p>:</span><span class=w>
+</span><span class=w>  </span><span class=nt>push</span><span class=p>:</span><span class=w>
+</span><span class=w>    </span><span class=nt>branches</span><span class=p>:</span><span class=w>
+</span><span class=w>      </span>- <span class=l>source </span><span class=w> </span><span class=c># Set a branch to deploy</span><span class=w>
+</span><span class=w>
+</span><span class=w></span><span class=nt>jobs</span><span class=p>:</span><span class=w>
+</span><span class=w>  </span><span class=nt>deploy</span><span class=p>:</span><span class=w>
+</span><span class=w>    </span><span class=nt>runs-on</span><span class=p>:</span><span class=w> </span><span class=l>ubuntu-18.04</span><span class=w>
+</span><span class=w>    </span><span class=nt>steps</span><span class=p>:</span><span class=w>
+</span><span class=w>      </span>- <span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/checkout@v2</span><span class=w>
+</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span><span class=w>          </span><span class=nt>submodules</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>  </span><span class=c># Fetch Hugo themes (true OR recursive)</span><span class=w>
+</span><span class=w>          </span><span class=nt>fetch-depth</span><span class=p>:</span><span class=w> </span><span class=m>0</span><span class=w>    </span><span class=c># Fetch all history for .GitInfo and .Lastmod</span><span class=w>
+</span><span class=w>
+</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Setup Hugo</span><span class=w>
+</span><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>peaceiris/actions-hugo@v2</span><span class=w>
+</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span><span class=w>          </span><span class=nt>hugo-version</span><span class=p>:</span><span class=w> </span><span class=s1>&#39;latest&#39;</span><span class=w>
+</span><span class=w>          </span><span class=c># extended: true</span><span class=w>
+</span><span class=w>
+</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Build</span><span class=w>
+</span><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>hugo --minify</span><span class=w>
+</span><span class=w>
+</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Deploy</span><span class=w>
+</span><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>peaceiris/actions-gh-pages@v3</span><span class=w>
+</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span><span class=w>          </span><span class=nt>github_token</span><span class=p>:</span><span class=w> </span><span class=l>${{ secrets.GITHUB_TOKEN }}</span><span class=w>
+</span><span class=w>          </span><span class=nt>publish_dir</span><span class=p>:</span><span class=w> </span><span class=l>./public</span><span class=w>
+</span><span class=w>          </span><span class=nt>publish_branch</span><span class=p>:</span><span class=w> </span><span class=l>main</span><span class=w>
+</span></code></pre></div><p>Now any push to the source branch will build and deploy your site to the main
+branch.</p>
+</article>
+</main><footer id=footer>
+Copyright © 2021 Learning Systems
+</footer>
+</body>
+</html>
