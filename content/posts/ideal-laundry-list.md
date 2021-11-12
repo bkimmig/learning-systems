@@ -1,9 +1,12 @@
 ---
 title: "Idea Laundry List"
 date: 2021-11-03T00:00:00-00:00
-modified: 2021-11-05T00:00:00-00:00
+modified: 2021-11-12T00:00:00-00:00
 authors: ["Jovan Sardinha", "Brian Kimmig"]
 ---
+
+
+## Ideas for posts
 
 - How do you get team to experiment while they produce.
 - Type 1 vs Type 2 iteration.
@@ -12,7 +15,7 @@ authors: ["Jovan Sardinha", "Brian Kimmig"]
   - How does this fit into ML?
 - Identifying data contracts + picking the most simple thing first (e.g. use a csv instead of a DB to avoid extra deps when starting)
 - Using top-down patterns (how to) vs. best principles (more of a bottom up).
-- looks like bottom up in usefull for early projects and vice versa.
+- looks like bottom up in useful for early projects and vice versa.
 - How do you incentivize this process.
 - <state, action, reward> triplets for team.
 - Code competing with code; production code vs. experiment code.
@@ -26,11 +29,11 @@ authors: ["Jovan Sardinha", "Brian Kimmig"]
 - ML Production Edicts
   - latency (all systems, but still important)
   - sane fallbacks (is your model doing something crazy or not returning a result)
-  - Itearation/Experimentation - once you have a base case workin, how do you pick the next one.
+  - Iteration/Experimentation - once you have a base case working, how do you pick the next one.
   - your training platform
   - your serving platform
   - how do these actually work together / can they? (reddit is very disjoint)
-  - ML models are like "fuzzy" APIs - where your more traditional API is deterministic, we should think of every response as having an errorbar)
+  - ML models are like "fuzzy" APIs - where your more traditional API is deterministic, we should think of every response as having an error bar)
   - ML focus on uncertainty - a prediction is not just a probability but there are errors on it $P \pm \sigma_P$
     - $\sigma_P$ is important and we should aim to understand it.
     - This is especially true for anything in online learning - try to sample at your known error rate
@@ -38,8 +41,22 @@ authors: ["Jovan Sardinha", "Brian Kimmig"]
     - the model AND the "trainer"?
     - what is it learning?
 - [OSI model](https://en.wikipedia.org/wiki/OSI_model)
-  - Specifially how it leads to value creation in technology networks.
+  - Specifically how it leads to value creation in technology networks.
   - Where are we in the ML ecosystem?
   - The delicate balance between the `Application Layer` (demand generation) and the rest of the stack (supply generation)
 - zen of python -> zen of {ML, learning systems}
   - "ethics over metrics" as an example.
+
+
+## Ideas to make it easier to commit posts
+
+- Block time
+  - 1/2 hour each day and then commit the posts even if it's not finished.
+  - Spend 1 day churning out drafts and then spend each day just 'refining'
+- Ask someone to read what you are writing - give yourself an audience
+  - Link to someone and see how they interact with the content.
+  - PR -- make yourself click "create pull request" each day .. meaning you've actually written something
+- What did you do today? How would it help someone else?
+- Remove the expectation bar.
+
+
