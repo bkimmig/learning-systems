@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Learning Systems</title><link>https://bkimmig.github.io/learning-systems/tags/</link><description>Recent content in Tags on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bkimmig.github.io/learning-systems/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Idea Laundry List</title><link>https://bkimmig.github.io/learning-systems/idea-laundry-list/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/idea-laundry-list/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Learning Systems</title><link>https://bkimmig.github.io/learning-systems/tags/</link><description>Recent content in Tags on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bkimmig.github.io/learning-systems/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Idea Laundry List</title><link>https://bkimmig.github.io/learning-systems/idea-laundry-list/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/idea-laundry-list/</guid><description>&lt;h2 id="ideas-for-posts">Ideas for posts&lt;/h2>
+&lt;ul>
 &lt;li>How do you get team to experiment while they produce.&lt;/li>
 &lt;li>Type 1 vs Type 2 iteration.
 &lt;ul>
@@ -12,7 +13,7 @@
 &lt;/li>
 &lt;li>Identifying data contracts + picking the most simple thing first (e.g. use a csv instead of a DB to avoid extra deps when starting)&lt;/li>
 &lt;li>Using top-down patterns (how to) vs. best principles (more of a bottom up).&lt;/li>
-&lt;li>looks like bottom up in usefull for early projects and vice versa.&lt;/li>
+&lt;li>looks like bottom up in useful for early projects and vice versa.&lt;/li>
 &lt;li>How do you incentivize this process.&lt;/li>
 &lt;li>&amp;lt;state, action, reward&amp;gt; triplets for team.&lt;/li>
 &lt;li>Code competing with code; production code vs. experiment code.&lt;/li>
@@ -27,11 +28,11 @@
 &lt;ul>
 &lt;li>latency (all systems, but still important)&lt;/li>
 &lt;li>sane fallbacks (is your model doing something crazy or not returning a result)&lt;/li>
-&lt;li>Itearation/Experimentation - once you have a base case workin, how do you pick the next one.&lt;/li>
+&lt;li>Iteration/Experimentation - once you have a base case working, how do you pick the next one.&lt;/li>
 &lt;li>your training platform&lt;/li>
 &lt;li>your serving platform&lt;/li>
 &lt;li>how do these actually work together / can they? (reddit is very disjoint)&lt;/li>
-&lt;li>ML models are like &amp;ldquo;fuzzy&amp;rdquo; APIs - where your more traditional API is deterministic, we should think of every response as having an errorbar)&lt;/li>
+&lt;li>ML models are like &amp;ldquo;fuzzy&amp;rdquo; APIs - where your more traditional API is deterministic, we should think of every response as having an error bar)&lt;/li>
 &lt;li>ML focus on uncertainty - a prediction is not just a probability but there are errors on it $P \pm \sigma_P$
 &lt;ul>
 &lt;li>$\sigma_P$ is important and we should aim to understand it.&lt;/li>
@@ -48,7 +49,7 @@
 &lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/OSI_model">OSI model&lt;/a>
 &lt;ul>
-&lt;li>Specifially how it leads to value creation in technology networks.&lt;/li>
+&lt;li>Specifically how it leads to value creation in technology networks.&lt;/li>
 &lt;li>Where are we in the ML ecosystem?&lt;/li>
 &lt;li>The delicate balance between the &lt;code>Application Layer&lt;/code> (demand generation) and the rest of the stack (supply generation)&lt;/li>
 &lt;/ul>
@@ -58,6 +59,23 @@
 &lt;li>&amp;ldquo;ethics over metrics&amp;rdquo; as an example.&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;/ul>
+&lt;h2 id="ideas-to-make-it-easier-to-commit-posts">Ideas to make it easier to commit posts&lt;/h2>
+&lt;ul>
+&lt;li>Block time
+&lt;ul>
+&lt;li>1/2 hour each day and then commit the posts even if it&amp;rsquo;s not finished.&lt;/li>
+&lt;li>Spend 1 day churning out drafts and then spend each day just &amp;lsquo;refining&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Ask someone to read what you are writing - give yourself an audience
+&lt;ul>
+&lt;li>Link to someone and see how they interact with the content.&lt;/li>
+&lt;li>PR &amp;ndash; make yourself click &amp;ldquo;create pull request&amp;rdquo; each day .. meaning you&amp;rsquo;ve actually written something&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>What did you do today? How would it help someone else?&lt;/li>
+&lt;li>Remove the expectation bar.&lt;/li>
 &lt;/ul></description></item><item><title>What is your production function?</title><link>https://bkimmig.github.io/learning-systems/what-is-your-production-function/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/what-is-your-production-function/</guid><description>&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Tyler_Cowen">Tyler Cowen&lt;/a> is an economics professor at &lt;a href="https://en.wikipedia.org/wiki/George_Mason_University">George Mason University&lt;/a>. He runs the &lt;a href="https://www.mercatus.org/">Mercatus Center&lt;/a>, which bridges the gap between academic ideas and real-world problems. He’s published a &lt;a href="https://marginalrevolution.com">blog&lt;/a> (which you should subscribe to if you haven&amp;rsquo;t already) and publishes a &lt;a href="https://conversationswithtyler.com/">podcast&lt;/a> among other things.&lt;/p>
 &lt;p>Tyler ends every episode of his podcast asking about other people’s production function. How do you get so much done? What’s the secret sauce of all that you’ve accomplished? This episode is entirely devoted to that question.&lt;/p>
 &lt;p>&lt;em>How you prepare?&lt;/em>&lt;/p>
