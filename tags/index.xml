@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Learning Systems</title><link>https://bkimmig.github.io/learning-systems/tags/</link><description>Recent content in Tags on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bkimmig.github.io/learning-systems/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Idea Laundry List</title><link>https://bkimmig.github.io/learning-systems/idea-laundry-list/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/idea-laundry-list/</guid><description>&lt;h2 id="ideas-for-posts">Ideas for posts&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Learning Systems</title><link>https://bkimmig.github.io/learning-systems/tags/</link><description>Recent content in Tags on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bkimmig.github.io/learning-systems/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Leave It Better</title><link>https://bkimmig.github.io/learning-systems/leave-it-better/</link><pubDate>Fri, 12 Nov 2021 12:00:38 -0600</pubDate><guid>https://bkimmig.github.io/learning-systems/leave-it-better/</guid><description>&lt;p>Doing things outdoors is a huge part of my life. There are a number of common
+adages people use in the outdoor community that resonate with even off the
+trail. For example, two of my favorites are &lt;i>&lt;b> there are no shortcuts to any
+place worth going &lt;/b>&lt;/i> or &lt;i>&lt;b> leave it better than you found it &lt;/b>&lt;/i>.&lt;/p>
+&lt;p>The latter of the two consistently finds its way into my head. Both on the
+trail, and at work in whatever code base I&amp;rsquo;m in that week. Obviously, everywhere
+we look we will see room for improvement - I&amp;rsquo;m not saying to overhaul anything
+but rather to make the small incremental changes that can improve the experience
+even a little.&lt;/p>
+&lt;p>Most of the time you aren&amp;rsquo;t explicitly on the trail to remove trash, just like
+in a code base your work usually isn&amp;rsquo;t explicitly to clean up what is there.
+Picking up that small piece of trash on the trail might go largely unnoticed;
+but you can be comforted that by picking it up, it won&amp;rsquo;t bum any one else out.
+Fixing up a file - adding verbose comments, type hints, or removing unused code -
+while you are in there making additions might go unnoticed as well but at the
+very least the next time someone is in there they might not have to deal with
+the thing you did. And if everyone is pitching in we might not have trash on our
+trails..&lt;/p>
+&lt;p>Clearly there are going to be some conflicting thoughts that go along with
+this&amp;hellip; &lt;i>&lt;b> I should only change what I&amp;rsquo;m trying to do in the PR &lt;/b>&lt;/i> - and I do
+agree with that, but personally I think it&amp;rsquo;s totally worth it to lump some
+cleaning in with regular work. You don&amp;rsquo;t need to touch all the files.. but hey,
+if your in there clean it up; leave it better than you found it.&lt;/p></description></item><item><title>Idea Laundry List</title><link>https://bkimmig.github.io/learning-systems/idea-laundry-list/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkimmig.github.io/learning-systems/idea-laundry-list/</guid><description>&lt;h2 id="ideas-for-posts">Ideas for posts&lt;/h2>
 &lt;ul>
 &lt;li>How do you get team to experiment while they produce.&lt;/li>
 &lt;li>Type 1 vs Type 2 iteration.
