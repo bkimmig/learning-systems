@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning Systems</title><link>https://bkimmig.github.io/learning-systems/</link><description>Recent content on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 12 Nov 2021 12:00:38 -0600</lastBuildDate><atom:link href="https://bkimmig.github.io/learning-systems/index.xml" rel="self" type="application/rss+xml"/><item><title>Leave It Better</title><link>https://bkimmig.github.io/learning-systems/leave-it-better/</link><pubDate>Fri, 12 Nov 2021 12:00:38 -0600</pubDate><guid>https://bkimmig.github.io/learning-systems/leave-it-better/</guid><description>&lt;p>Doing things outdoors is a huge part of my life. There are a number of common
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning Systems</title><link>https://bkimmig.github.io/learning-systems/</link><description>Recent content on Learning Systems</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Nov 2021 15:34:39 -0700</lastBuildDate><atom:link href="https://bkimmig.github.io/learning-systems/index.xml" rel="self" type="application/rss+xml"/><item><title>How We Talk About Code</title><link>https://bkimmig.github.io/learning-systems/how-we-talk-about-code/</link><pubDate>Fri, 19 Nov 2021 15:34:39 -0700</pubDate><guid>https://bkimmig.github.io/learning-systems/how-we-talk-about-code/</guid><description>&lt;p>A while back I had a boss that had very strong opinions about how the team
+talked about our code base. His general attitude was roughly this &amp;ldquo;once the code
+is in the main branch, it is now &lt;i>our&lt;/i> code and no longer &lt;i>my&lt;/i> code&amp;rdquo;.
+Basically the thought was this; as a team we&amp;rsquo;ve agreed, by review, that we
+accept this code and are saying this can go in our shared code base - now making
+it &lt;i>our&lt;/i> code that we are all responsible for.&lt;/p>
+&lt;p>In general this is a pretty small thing to note, but I do think the way we talk
+about things can have a huge impact on the way we interact with them. When viewing
+something as the team&amp;rsquo;s we might all take more care using/improving it. This
+shared responsibility also helps around blame - which should really be avoided
+in general.. something broke, big deal (and it might be), the why is &lt;i>much&lt;/i>
+more important than the &lt;i>who&lt;/i>.&lt;/p>
+&lt;p>As a team we should support and help one another as much as possible. I believe
+this a very small thing that, overtime, can improve the way we work together and
+help improve things through a feeling of shared responsibility.&lt;/p>
+&lt;p>** I should really due diligence and search around for where this &amp;ldquo;our/my&amp;rdquo; idea
+originated. If it was my boss, I&amp;rsquo;ll make sure to give explicit credit.&lt;/p></description></item><item><title>Leave It Better</title><link>https://bkimmig.github.io/learning-systems/leave-it-better/</link><pubDate>Fri, 12 Nov 2021 12:00:38 -0600</pubDate><guid>https://bkimmig.github.io/learning-systems/leave-it-better/</guid><description>&lt;p>Doing things outdoors is a huge part of my life. There are a number of common
 adages people use in the outdoor community that resonate with even off the
 trail. For example, two of my favorites are &lt;i>&lt;b> there are no shortcuts to any
 place worth going &lt;/b>&lt;/i> or &lt;i>&lt;b> leave it better than you found it &lt;/b>&lt;/i>.&lt;/p>
